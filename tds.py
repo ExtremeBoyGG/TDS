@@ -50,7 +50,7 @@ except FileNotFoundError:
 	Token_fb=input(sr+'Masukkan Token FB : ')
 	file=open('tokenfb.txt','w')
 	file.write(Token_fb)
-	filw.close()
+	file.close()
 if "success" in log:
 	print(f"{sr} Login Berhasil !")
 	xu=log['data']['xu']
