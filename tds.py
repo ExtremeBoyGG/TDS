@@ -1,7 +1,6 @@
 #coding: utf-8
 
 # OPEN SOURCE TDS BOT FREE TO USE
-
 import os, sys, re, json
 from time import sleep
 fbid = []
@@ -164,7 +163,7 @@ if "success" in log:
 						nama=testing['id']
 					except KeyError:
 						os.remove('tokenfb.txt')
-						exit(+'\r'+merah+' TOKEN INVALID ')
+						exit('\r'+merah+' TOKEN INVALID ')
 			else:
 				print(sr+"Error!!")
 		else:
